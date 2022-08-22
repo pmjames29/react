@@ -1,0 +1,114 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+h1, h3 {
+    margin-bottom: 0;
+}
+
+p {
+    margin: 0;
+}
+
+main {
+    background-color: #1A1B21;
+    width: 50%;
+    margin: 0 auto;
+}
+
+main > .main--PFP {
+    width: 100%;
+    display: block;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main--name {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.main--job_title {
+    color: #F3BF99;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.main--website {
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    padding-block: 12px;
+}
+
+.main--button_links {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.main--email_button {
+    font-size: 14px;
+    width: 33%;
+    padding-block: 5px;
+    border-radius: 6px;
+    border: none;
+}
+
+.main--email_button > span {
+    padding-left: 5px;
+}
+
+.main--email_button:hover,.main--linkedin_button:hover {
+    cursor: pointer;
+}
+
+.main--email_button:active, .main--linkedin_button:active {
+    transform: translateY(2px);
+}
+
+
+.main--linkedin_button {
+    background-color: #5093E2;
+    color: white;
+    font-size: 14px;
+    width: 33%;
+    padding-block: 5px;
+    margin-left: 15px;
+    border-radius: 6px;
+    border: none;
+}
+
+.main--linkedin_button > span {
+    padding-left: 5px;
+}
+
+.main--blurb {
+    width: 75%;
+    margin: 0 auto;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.main--blurb > h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.main--blurb > p {
+    font-size: 10px;
+    line-height: 150%;
+}
+
+footer {
+    text-align: center;
+    background-color: #161619;
+    width: 50%;
+    margin: 0 auto;
+}
+
+footer > img {
+    padding: 20px 12px;
+}
