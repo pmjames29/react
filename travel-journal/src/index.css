@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+nav {
+  background-color: #F55A5A;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+  height: 55px;
+}
+
+nav > img {
+  height: 50%;
+  margin: auto 0;
+}
+
+nav > h2 {
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 7px;
+  padding-top: 10px;
+}
+
+.entry {
+  height: 200px;
+  display: flex;
+  margin: 40px auto;
+  width: 75%;
+}
+
+.entry > img {
+  height: 100%;
+  max-width: 133px;
+  border-radius: 5px;
+}
+
+.entry--text {
+  margin-left: 20px;
+}
+
+.entry--about {
+  display: inline;
+}
+
+.entry--location {
+  letter-spacing: 2px;
+  font-size: 12px;
+  display: inline;
+  margin-left: 5px;
+}
+
+.entry--google_maps_url {
+  color: #918E9B;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.entry--title {
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.entry--description {
+  font-size: 12px;
+}
+
