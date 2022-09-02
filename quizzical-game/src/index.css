@@ -1,0 +1,101 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.intro-page {
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    margin: 100px auto;
+}
+
+.intro-page > h1 {
+    color: #293264;
+    font-size: 41px;
+    letter-spacing: 1.5px;
+}
+
+.intro-page > button {
+    width: 200px;
+    height: 50px;
+    color: #F5F7FB;
+    background-color: #4D5B9E;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.intro-page > button:hover {
+    color: #4D5B9E;
+    background-color: #fdfdfa;
+    box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.247)
+}
+
+.intro-page > button:active {
+    transform: translateY(5px);
+}
+
+main {
+    width: 85%;
+    margin: auto;
+    color: #293264;
+}
+
+.question {
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    border-bottom: 0.5px solid gray;
+}
+
+.answers {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.answers > button {
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+    min-width: 85px;
+    min-height: 30px;
+    border-radius: 20px;
+    transition-duration: 0.5s;
+}
+
+.answers > button:hover {
+    cursor: pointer;
+}
+
+.answers > button:active {
+    transition-duration: 0s;
+    transform: translateY(3px)
+}
+
+.score-and-button {
+    text-align: center;
+}
+
+.score-and-button > p {
+    font-weight: bold;
+}
+
+.answers-button, .score-button {
+    width: 200px;
+    height: 50px;
+    color: #F5F7FB;
+    background-color: #4D5B9E;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.answers-button {
+    margin: 30px auto;
+}
+
+
+
+
