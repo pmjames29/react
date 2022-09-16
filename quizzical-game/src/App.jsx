@@ -190,6 +190,8 @@ export default function App() {
     )
   }
 
+  // Main return for the component, getting all the elements and displaying them based on conditional
+  // rendering
   return ( 
     <main>
       {isOnIntro && loadIntroContent()}
